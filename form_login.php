@@ -55,7 +55,7 @@ if(isset($_POST['submit-request'])){
 
         $mail->Host = 'smtp.gmail.com';
         $mail->Username = $email_pengirim;
-        $mail->Password = 'spwfswkfllchrdic'; //this example of application password that created on email that you use in the 47 line
+        $mail->Password = 'spwfswkfllchrdic'; //this example of application password has created on email that you use in the 47 line
         $mail->Port = 465;
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = 'ssl';
